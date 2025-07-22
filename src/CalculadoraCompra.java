@@ -28,5 +28,8 @@ public class CalculadoraCompra {
     System.out.printf("El valor impuesto de su compra es: %.2f.\n", impuesto);
     System.out.printf("El valor total de su compra es: %.2f.\n", total);
     System.out.printf("El valor cambio de su compra es: %.2f.\n", cambio);
+        System.out.println("Gracias por su compra!");
+
+    entrada.close();
     }
 }
